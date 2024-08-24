@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #f5f5f5;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #1b1b1b;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #E5E5E5;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+.intro img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.biography, .achievements, .legacy, .quotes {
+    margin: 2rem 0;
+    background: #1b1b1b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.biography h2, .achievements h2, .legacy h2, .quotes h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-bottom: 2px solid #E5E5E5;
+    padding-bottom: 0.5rem;
+}
+
+.biography p, .achievements p, .legacy p, .quotes p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 1.2rem;
+    line-height: 1.8;
+}
+
+.achievements ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+.achievements li {
+    margin: 0.5rem 0;
+}
+
+/* Center the Specific Image */
+.achievements img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.biography img, .legacy img, .quotes img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.quotes blockquote {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #2b2b2b;
+    border-left: 5px solid #E5E5E5;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    quotes: "“" "”" "‘" "’";
+}
+
+.quotes blockquote:before {
+    content: open-quote;
+    font-size: 3rem;
+    line-height: 0;
+    color: #E5E5E5;
+    margin-right: 10px;
+    vertical-align: -0.4rem;
+}
+
+.quotes blockquote:after {
+    content: close-quote;
+    font-size: 3rem;
+    line-height: 0;
+    color: #E5E5E5;
+    margin-left: 10px;
+    vertical-align: -0.4rem;
+}
+
+/* Footer */
+footer {
+    background: #1b1b1b;
+    padding: 1rem;
+    text-align: center;
+    border-top: 2px solid #E5E5E5;
+}
+
+footer p {
+    color: #cccccc;
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Hover Effects */
+a:hover, h1:hover, h2:hover, blockquote:hover, footer:hover {
+    color: #f0f0f0;
+    transition: color 0.3s ease-in-out;
+}
