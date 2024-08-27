@@ -1,5 +1,6 @@
 /* General Styles */
 body {
+    /* Sets the global style to full page */
     font-family: 'Arial', sans-serif;
     color: #f5f5f5;
     background-color: #121212;
@@ -9,6 +10,7 @@ body {
 }
 
 header {
+    /* contains the website's title, logo, and navigation */
     background: #1b1b1b;
     padding: 2rem;
     text-align: center;
@@ -16,6 +18,7 @@ header {
 }
 
 header h1 {
+    /* Styles the main header here */
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: #E5E5E5;
@@ -24,16 +27,19 @@ header h1 {
 }
 
 header p {
+    /* Styles the secondary text  */
     font-size: 1.2rem;
     color: #cccccc;
 }
 
 /* Main Content */
 main {
+    /* Defines the main content area of the page */
     padding: 2rem;
 }
 
 .intro img {
+    /* Styles the image */
     display: block;
     max-width: 100%;
     height: auto;
@@ -43,6 +49,7 @@ main {
 }
 
 .biography, .achievements, .legacy, .quotes {
+    /* Styles the sections for biography, achievements, legacy, and quotes */
     margin: 2rem 0;
     background: #1b1b1b;
     padding: 1.5rem;
@@ -51,6 +58,7 @@ main {
 }
 
 .biography h2, .achievements h2, .legacy h2, .quotes h2 {
+    /* its styles the bio,achievements,legacy and quotes sections */
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #f0f0f0;
@@ -61,6 +69,7 @@ main {
 }
 
 .biography p, .achievements p, .legacy p, .quotes p {
+    /* Styles the paragraph text  */
     font-size: 1.1rem;
     color: #cccccc;
     margin-bottom: 1.2rem;
@@ -68,16 +77,19 @@ main {
 }
 
 .achievements ul {
+    /* Styles the unordered list (ul) within the achievements section */
     list-style-type: square;
     padding-left: 1.5rem;
 }
 
 .achievements li {
+    /* Styles the list items (li) within the achievements section */
     margin: 0.5rem 0;
 }
 
 /* Center the Specific Image */
 .achievements img {
+    /* Styles the image within the achievements section */
     display: block;
     margin: 1rem auto;
     border-radius: 10px;
@@ -85,6 +97,7 @@ main {
 }
 
 .biography img, .legacy img, .quotes img {
+    /* Styles the images within the biography, legacy, and quotes sections */
     display: block;
     max-width: 100%;
     height: auto;
@@ -94,6 +107,7 @@ main {
 }
 
 .quotes blockquote {
+    /* Styles the blockquote element within the quotes section */
     margin: 1rem 0;
     padding: 1rem;
     background: #2b2b2b;
@@ -104,6 +118,7 @@ main {
 }
 
 .quotes blockquote:before {
+    /* Styles the opening quotation mark */
     content: open-quote;
     font-size: 3rem;
     line-height: 0;
@@ -113,6 +128,7 @@ main {
 }
 
 .quotes blockquote:after {
+    /* Styles the closing quotation mark */
     content: close-quote;
     font-size: 3rem;
     line-height: 0;
@@ -123,6 +139,7 @@ main {
 
 /* Footer */
 footer {
+    /* Styles the footer section */
     background: #1b1b1b;
     padding: 1rem;
     text-align: center;
@@ -130,6 +147,7 @@ footer {
 }
 
 footer p {
+    /* Styles the text within the footer */
     color: #cccccc;
     margin: 0;
     font-size: 1rem;
@@ -138,6 +156,12 @@ footer p {
 
 /* Hover Effects */
 a:hover, h1:hover, h2:hover, blockquote:hover, footer:hover {
+    /* Defines hover effects for links, headings, blockquotes, and the footer */
     color: #f0f0f0;
     transition: color 0.3s ease-in-out;
+}
+
+a:hover,h2:hover{
+    color:rgb(90, 9, 165);
+    transition: color 0.3s move left;
 }
